@@ -1,78 +1,173 @@
 const designers = [
   {
-    firstName: 'Jessica',
-    lastName: 'Wong',
+    firstName: 'Alan',
+    lastName: 'Daves',
+  },
+  {
+    firstName: 'Lola',
+    lastName: 'Witaki',
   },
   {
     firstName: 'James',
-    lastName: 'Maqueen',
+    lastName: 'Fill',
   },
   {
-    firstName: 'Laura',
-    lastName: 'Valentino',
+    firstName: 'Arnold',
+    lastName: 'Shwarth',
   },
   {
-    firstName: 'Giovanni',
-    lastName: 'Gabanna',
+    firstName: 'Sara',
+    lastName: 'Deleny',
   },
   {
-    firstName: 'Paolo',
-    lastName: 'Boss',
+    firstName: 'Jenny',
+    lastName: 'Cuture',
   },
   {
-    firstName: 'Tatiana',
-    lastName: 'Chanel',
-  },
-  {
-    firstName: 'Stella',
-    lastName: 'Macroon',
-  },
-  {
-    firstName: 'Vegan',
-    lastName: 'Man',
+    firstName: 'Sally',
+    lastName: 'Aubergine',
   },
 ];
 
-const model = [
+const models = [
+  {
+    firstName: 'Heidy',
+    lastName: 'Klum',
+    agency: 'BeautyBay',
+  },
+  {
+    firstName: 'Satina',
+    lastName: 'Laly',
+    agency: 'BeautyBay',
+  },
+  {
+    firstName: 'Tijani',
+    lastName: 'Fulani',
+    agency: 'Boolean',
+  },
   {
     firstName: 'Valentina',
-    lastName: 'Italy',
-    agency: 'Best Of Italy',
+    lastName: 'Ponchi',
+    agency: 'Boolean',
+  },
+  {
+    firstName: 'Jizel',
+    lastName: 'Budhen',
+    agency: 'Boolean',
   },
   {
     firstName: 'Duncan',
     lastName: 'Scotland',
-    agency: 'Best Of Scotland',
+    agency: 'Gorgeous Agerncy',
   },
   {
-    firstName: 'Tatiana',
-    lastName: 'Belarus',
-    agency: 'Best Of Belarus',
+    firstName: 'Tiziana',
+    lastName: 'Dazilicata',
+    agency: 'Gorgeous Agerncy',
   },
   {
-    firstName: 'Elio',
-    lastName: 'Albania',
-    agency: 'Best Of Albania',
+    firstName: 'Marco',
+    lastName: 'De Bortoli',
+    agency: 'Gorgeous Agerncy',
+  },
+];
+
+const outfits = [
+  {
+    description: 'Coat',
+    season: '2020 SS',
+    price: 1200,
+    modelId: 1,
+    designerId: 1,
+    guestId: 1,
   },
   {
-    firstName: 'Jonathon',
-    lastName: 'England',
-    agency: 'Best Of England',
+    description: 'Dress',
+    season: '2020 SS',
+    price: 1050,
+    modelId: 2,
+    designerId: 2,
+    guestId: 2,
   },
   {
-    firstName: 'Sergio',
-    lastName: 'Portugal',
-    agency: 'Worse Of Portugal',
+    description: 'Skirt',
+    season: '2020 AW',
+    price: 770.5,
+    modelId: 3,
+    designerId: 2,
+    guestId: 3,
   },
   {
-    firstName: 'Steven',
-    lastName: 'Costa Rica',
-    agency: 'best Of Costa Rica',
+    description: 'Shirt',
+    season: '2020 AW',
+    price: 910.15,
+    modelId: 4,
+    designerId: 3,
+    guestId: 4,
   },
   {
-    firstName: 'Lars',
-    lastName: 'Norway',
-    agency: 'best Of Norway',
+    description: 'Shirt',
+    season: '2020 AW',
+    price: 910.15,
+    modelId: 4,
+    designerId: 3,
+    guestId: 5,
+  },
+  {
+    description: 'Blouse',
+    season: '2020 AW',
+    price: 350.25,
+    modelId: 5,
+    designerId: 4,
+    guestId: 6,
+  },
+  {
+    description: 'Suit',
+    season: '2020 SS',
+    price: 2510.25,
+    modelId: 6,
+    designerId: 4,
+    guestId: 7,
+  },
+  {
+    description: 'Trousers',
+    season: '2020 SS',
+    price: 1200,
+    modelId: 7,
+    designerId: 5,
+    guestId: 1,
+  },
+  {
+    description: 'Lingere',
+    season: '2020 AW',
+    price: 310,
+    modelId: 7,
+    designerId: 5,
+    guestId: 2,
+  },
+  {
+    description: 'Top',
+    season: '2020 AW',
+    price: 730,
+    modelId: 8,
+    designerId: 6,
+    guestId: 3,
+  },
+  {
+    description: 'Track Suit',
+    season: '2020 AW',
+    price: 810,
+    modelId: 8,
+    designerId: 6,
+    guestId: 4,
+  },
+  {
+    description: 'Evening Dress',
+    season: '2020 AW',
+    price: 3500,
+    modelId: 1,
+    designerId: 1,
+    guestId: 5,
   },
 ];
 
@@ -174,3 +269,43 @@ const events = [
     guestId: 1,
   },
 ];
+
+const guests = [
+  {
+    firstName: 'James',
+    lastName: 'Murphy',
+    company: 'MatchesFashion',
+  },
+  {
+    firstName: 'Sara',
+    lastName: 'Jefferson',
+    company: 'MatchesFashion',
+  },
+  {
+    firstName: 'Terry',
+    lastName: 'Cruze',
+    company: 'BeautyFlash',
+  },
+  {
+    firstName: 'Amy',
+    lastName: 'McDate',
+    company: 'BeautyFlash',
+  },
+  {
+    firstName: 'Amy',
+    lastName: 'Santiago',
+    company: 'BeautyFlash',
+  },
+  {
+    firstName: 'Jenny',
+    lastName: 'Dias',
+    company: 'NettePorter',
+  },
+  {
+    firstName: 'Anna',
+    lastName: 'Kurnikova',
+    company: 'NettePorter',
+  },
+];
+
+module.exports = { designers, models, outfits, events, guests };
