@@ -25,7 +25,7 @@ const getModelsforSpecificEvent = async (req, res) => {
     res.json({ event: `${eventName}`, models });
   } catch (error) {
     res.json({
-      error: `Event with ID ${id} doesn't exict, no models can be found`,
+      error: `Event with id ${id} doesn't exict, no models can be found`,
     });
   }
 };
