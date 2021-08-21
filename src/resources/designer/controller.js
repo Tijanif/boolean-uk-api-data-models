@@ -61,7 +61,7 @@ const updateDesigner = async (req, res) => {
     });
     res.json({ updated });
   } catch (error) {
-    res.json({ error: `ID ${id} not found..` });
+    res.json({ error: `id ${id} not found..` });
   }
 };
 
@@ -76,7 +76,7 @@ async function deleteDesigner(req, res) {
     });
     res.json({ deleted });
   } catch (error) {
-    res.json({ error: `ID ${id} not in a system` });
+    res.json({ error: `id ${id} not in a system` });
   }
 }
 
