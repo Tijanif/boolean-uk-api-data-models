@@ -263,7 +263,7 @@ const events = [
     guestId: 2,
   },
   {
-    name: 'Best Train Models',
+    name: 'Best Spanish Models',
     modelId: 1,
     designerId: 1,
     guestId: 1,
